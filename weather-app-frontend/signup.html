@@ -217,5 +217,13 @@
             </form>
         </main>
     </div>
+        <script>
+        const signupForm = document.getElementById('signupForm');
+
+        signupForm.addEventListener('submit', (e) => {
+            e.preventDefault(); 
+            window.location.href = 'index.html';
+        });
+    </script>
 </body>
 </html>
